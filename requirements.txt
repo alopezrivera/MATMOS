@@ -1,1 +1,2 @@
 numpy>=1.19.2
+Python-Alexandria>=2.0.0

@@ -14,7 +14,8 @@ setuptools.setup(
     url="https://github.com/antonlopezr/matmos",
     packages=setuptools.find_packages(),
     install_requires=[
-        "numpy"
+        "numpy",
+        "Python-Alexandria>=2.0.0"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
