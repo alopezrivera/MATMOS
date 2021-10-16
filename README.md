@@ -80,11 +80,11 @@ m.d                                 # Density
 Solving for a given density:
 
 ```
-m = ISA(p=0.03)         # 0.03 kg/m^3
+m = ISA(p=0.03)                     # 0.03 kg/m^3
 
-m.h                     # Altitude
-m.t                     # Temperature
-m.p                     # Pressure
+m.h                                 # Altitude
+m.t                                 # Temperature
+m.p                                 # Pressure
 ```
 
 ---
