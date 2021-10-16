@@ -5,9 +5,10 @@
 MATMOS is a direct and inverse atmospheric model library. Currently it supports 
 the International Standard Atmosphere model.
 
-MATMOS allows you to calculate the temperature, pressure and density of the atmosphere
-receiving as input a given height (direct model), or any of the other quantities 
-(indirect).
+Given an altitude, MATMOS allows you to calculate the temperature, pressure and 
+density of the atmosphere (direct model). If given any of these (temperature,
+pressure or density), MATMOS will calculate the corresponding altitude and remaining 
+quantities (indirect model).
 
 As temperature is not a monotonic function of height (equal values of temperature happen 
 at different heights), its inverse cannot be determined without more information. To solve 
