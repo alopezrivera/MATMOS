@@ -21,7 +21,7 @@ provided.
 
 `pip install matmos`
 
-## Use
+## User's guide
  
 ### Importing a model
 
