@@ -2,7 +2,7 @@
 
 ![alt text](tests/coverage/coverage.svg ".coverage available in tests/coverage/")
 
-MATMOS is a direct and inverse atmospheric model library. Currenty MATMOS supports 
+MATMOS is a direct and inverse atmospheric model library. Currently it supports 
 the International Standard Atmosphere model.
 
 MATMOS allows you to calculate the temperature, pressure and density of the atmosphere
@@ -21,13 +21,6 @@ provided.
 `pip install matmos`
 
 ## Use
-
-MATMOS allows for input in the form of `float`s and well as NumPy arrays. The unit convention
-can be seen in the table below.
-
-| Magnitude | Altitude | Temperature | Pressure | Density | 
-| ---       | ---      | ---         | ---      | ---     | 
-| Unit      | km       | K           | Pa       | kg/m^3  |
  
 ### Importing a model
 
@@ -41,6 +34,13 @@ The model is run by simply initializing an instance of the model with
 height, temperature, pressure or density as inputs. 
 The results are stored as instance attributes and can be retrieved with
 the usual notation.
+
+MATMOS allows for input in the form of Python numeric types as well as NumPy arrays. 
+The unit convention can be seen in the table below.
+
+| Magnitude | Altitude | Temperature | Pressure | Density | 
+| ---       | ---      | ---         | ---      | ---     | 
+| Unit      | km       | K           | Pa       | kg/m^3  |
 
 #### Direct model
 
