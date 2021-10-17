@@ -16,8 +16,8 @@ density of the atmosphere (direct model). If given any of these (temperature,
 pressure or density), MATMOS will calculate the corresponding altitude and remaining 
 quantities (indirect model).
 
-As temperature is not a monotonic function of height (equal values of temperature happen 
-at different heights), its inverse cannot be determined without more information. To solve 
+As temperature is not a monotonic function of altitude (equal values of temperature happen 
+at different altitudes), its inverse cannot be determined without more information. To solve 
 this, the option to specify an altitude range where the temperature is to be found is 
 provided.
 
