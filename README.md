@@ -31,7 +31,7 @@ from matmos import ISA
 
 ### Running and retrieving results
 
-The model is run by simply initializing an instance of the model with 
+The model is run by simply initializing an instance with 
 height, temperature, pressure or density as inputs. 
 The results are stored as instance attributes and can be retrieved with
 the usual notation.
