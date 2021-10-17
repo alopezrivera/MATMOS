@@ -5,6 +5,12 @@
 MATMOS is a direct and inverse atmospheric model library. Currently it supports 
 the International Standard Atmosphere model.
 
+## Install
+
+`pip install matmos`
+
+## User's guide
+
 Given an altitude, MATMOS allows you to calculate the temperature, pressure and 
 density of the atmosphere (direct model). If given any of these (temperature,
 pressure or density), MATMOS will calculate the corresponding altitude and remaining 
@@ -16,12 +22,6 @@ this, the option to specify an altitude range where the temperature is to be fou
 provided.
 
 [The API reference is available here](https://alopezrivera-docs.github.io/matmos/).
-
-## Install
-
-`pip install matmos`
-
-## User's guide
  
 ### Importing a model
 
