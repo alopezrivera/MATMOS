@@ -29,9 +29,7 @@ provided.
 
 ## Models
 
-### ISA
-
-![alt text](demo/graphs/ISA.png)
+![alt text](demo/graphs/ISA.svg)
 
 ## User's guide
  
