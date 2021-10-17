@@ -21,6 +21,12 @@ provided.
 
 `pip install matmos`
 
+## Models
+
+### ISA
+
+![alt text](demo/graphs/ISA.png)
+
 ## User's guide
  
 ### Importing a model
