@@ -3,8 +3,10 @@
 
 .pytest_cache/*
 matmos/.pytest_cache/*
+matmos/models/.pytest_cache/*
 tests/.pytest_cache/*
 
 __pycache__/*
 matmos/__pycache__/*
+matmos/models/__pycache__/*
 tests/__pycache__/*
