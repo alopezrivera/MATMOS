@@ -8,20 +8,21 @@ from mpl_plotter.two_d import line
 from matmos import ISA
 
 
-class TestCombustion(unittest.TestCase):
+class TestsISA(unittest.TestCase):
 
     def test_h(self):
 
         m = ISA(np.linspace(0, 85, 1000))
 
-        line(m.p, m.h,
+        line(m.t, m.h,
              demo_pad_plot=True,
              fine_tick_locations=True,
              show=True
              )
 
     def test_t(self):
-        m = ISA(t=np.linspace(288, 216, 1000), hrange=[0, 20])
+        m = ISA(t=np.linspace(288, 216, 1000), hrange=[0, 20],
+                )
 
         line(m.t, m.h,
              demo_pad_plot=True,
@@ -30,7 +31,8 @@ class TestCombustion(unittest.TestCase):
              )
 
     def test_p(self):
-        m = ISA(p=np.linspace(101325, 0.0, 1000))
+        m = ISA(p=np.linspace(101325, 0.0, 100000),
+                )
 
         line(m.p, m.h,
              demo_pad_plot=True,
