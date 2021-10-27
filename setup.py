@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="matmos",
-    version="0.0.0.a2",
+    version="0.0.0.a3",
     author="Antonio Lopez Rivera",
     author_email="antonlopezr99@gmail.com",
     description="Library of atmospheric models",
